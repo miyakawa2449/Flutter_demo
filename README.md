@@ -32,8 +32,14 @@ flutter run
 ## プロジェクト構成
 
 ```
-lib/
-└── main.dart    # アプリケーションのメインファイル
+hello_flutter/
+├── lib/
+│   └── main.dart    # アプリケーションのメインファイル
+└── docs/           # プロジェクトドキュメント
+    ├── flutter-widget-basics.md         # Flutterウィジェットの基本概念
+    ├── main-dart-detailed-guide.md      # main.dartの詳細解説
+    ├── widget-tree-visualization.md     # ウィジェットツリーの図解
+    └── button-event-handling-guide.md   # ボタンイベント処理ガイド
 ```
 
 ### main.dart の構成
@@ -57,6 +63,20 @@ lib/
 - `ColorScheme.fromSeed` の `seedColor` を変更してテーマカラーを変更
 - `AppBar` の `backgroundColor` を変更してヘッダーの色を変更
 - カウンター表示のテキストスタイルをカスタマイズ
+
+## ドキュメント
+
+このプロジェクトの詳細な技術ドキュメント：
+
+### 基本概念
+- [Flutterウィジェットの基本概念](./docs/flutter-widget-basics.md) - ウィジェットの種類、ライフサイクル、ベストプラクティス
+
+### コード解説
+- [main.dartの詳細解説ガイド](./docs/main-dart-detailed-guide.md) - ファイル構成、各クラスの役割、データフローの詳細
+- [ウィジェットツリーの図解](./docs/widget-tree-visualization.md) - アプリケーションの構造を視覚的に理解
+
+### 実装ガイド
+- [FloatingActionButtonイベント処理ガイド](./docs/button-event-handling-guide.md) - ボタンのタップ検知から画面更新までの詳細な流れ
 
 ## 参考資料
 
